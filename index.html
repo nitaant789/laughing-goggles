@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section id="grid">
+        <center>
+            <h1>F1 grid gallery.</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/F1_70_Logo.svg/420px-F1_70_Logo.svg.png">
+            <div class="image-section">
+                <div class="section-style">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Regazzoni%2C_Clay_am_31.07.1976_-_Ferrari_312T.jpg/330px-Regazzoni%2C_Clay_am_31.07.1976_-_Ferrari_312T.jpg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Damon_Hill_1995-2.jpg/330px-Damon_Hill_1995-2.jpg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Michael_Schumacher_2001_Canada.jpg/330px-Michael_Schumacher_2001_Canada.jpg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Jolyon_Palmer_-_Renault_F1_RS16_%2829463209074%29.jpg/330px-Jolyon_Palmer_-_Renault_F1_RS16_%2829463209074%29.jpg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/McLaren_duo_1-2_finish_2010_Canada_%28cropped%29.jpg/330px-McLaren_duo_1-2_finish_2010_Canada_%28cropped%29.jpg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/FIA_F1_Austria_2019_Nr._5_Vettel_1.jpg/330px-FIA_F1_Austria_2019_Nr._5_Vettel_1.jpg">
+                </div>
+            </div>
+        </center>
+    </section>
+    <section>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-content">
+
+                    <div class="item active">
+                        <center>
+                            <img  id="album" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Regazzoni%2C_Clay_am_31.07.1976_-_Ferrari_312T.jpg/330px-Regazzoni%2C_Clay_am_31.07.1976_-_Ferrari_312T.jpg" class="img-responsive">
+
+
+                        </center>
+
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next" onclick="nextslide()">
+                <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+    </section>
+
+</body>
+
+</html>
